@@ -1,0 +1,38 @@
+{
+  "Movies": [
+    {
+      "Name": "Shrek 1",
+      "Rating": "PG",
+      "Runtime": 120,
+      "Genre": [
+        "Comedy"
+      ]
+    },
+    {
+      "Name": "Shrek 2",
+      "Rating": "PG",
+      "Runtime": 130,
+      "Genre": [
+        "Comedy"
+      ]
+    },
+    {
+      "Name": "Space 101",
+      "Rating": "M15",
+      "Runtime": 125,
+      "Genre": [
+        "Space"
+      ]
+    },
+    {
+      "Name": "Groundhog day",
+      "Rating": "R16",
+      "Runtime": 178,
+      "Genre": [
+        "Drama",
+        "Romance",
+        "Psychology"
+      ]
+    }
+  ]
+

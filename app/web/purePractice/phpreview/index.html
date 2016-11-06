@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta charset="UTF-8">
+	<title>DOM1</title>
+</head>
+<body>
+	<p id="intro">hello world!</p>
+	<p id="intro1">hello world1!</p>
+	<p id="demo"></p>
+
+	<script type="text/javascript">
+		var x=document.getElementById("intro");
+		document.getElementById('demo').innerHTML="The paragraphe"+x.innerHTML;
+		alert(x.innerHTML);
+		//var myElement = document.getElementById("intro");
+		//document.getElementById("demo").innerHTML =
+		//"The text from the intro paragraph is " + myElement.innerHTML;
+	</script>
+</body>

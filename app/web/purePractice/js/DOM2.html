@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<link rel="stylesheet" type="text/css" href="../css/firstanimate.css">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="UTF-8">
+	<title>DOM2-animate</title>
+</head>
+<body>
+	<p>
+		<button onclick="myMove()">
+			click me
+		</button>
+	</p>
+	<div id="container">
+		<div id="animate">
+				
+		</div>
+	</div>
+	<script type="text/javascript">
+	function myMove()
+	{
+		var elem=document.getElementById("animate");
+		var pos=0;
+		var id=setInterval(frame,5);
+	
+		function frame()
+		{
+			if(pos==350)
+			{
+				clearInterval(id);
+			}
+			else
+			{
+				pos++;
+				elem.style.top =pos+'px';
+				elem.style.left=pos+'px';
+			}
+		}
+	}
+	</script>
+</body>
+</html>

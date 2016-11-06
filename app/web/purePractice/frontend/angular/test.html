@@ -1,0 +1,9 @@
+extends('layouts.app')
+@section('content')
+
+<script type="text/javascript" src="js/languageexchange.js"></script>
+<div ng-controller="mycontrol">
+@{{first+" "+last}}
+</div>
+<div my-test-directive></div>
+@endsection

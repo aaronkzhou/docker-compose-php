@@ -1,0 +1,18 @@
+title = "register"
+url = "/register"
+layout = "default"
+description = "register"
+is_hidden = 0
+
+[account]
+redirect = "home"
+paramCode = "code"
+
+[resetPassword]
+paramCode = "code"
+==
+<div class="container">
+    {% component 'account::register' %}
+</div>
+
+<!-- Page Explanation -->

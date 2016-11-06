@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta charset="UTF-8">
+	<title>AJAX Test 1</title>
+</head>
+<body>
+	<div id="aaron">ajax start from here</div>
+	<button type="button" onclick="ajax1()">ajax</button>
+
+<script type="text/javascript">
+	function ajax1{
+		var xhttp = new XMLHttpRequest();
+		var.Onreadystatechange=function(){
+			if(xhttp.readystate==4 && xhttp.status=200){
+				document.getElementId("aaron").innerHTML=xhttp.responseText;
+			}
+		};
+		xhttp.open("GET","ajax_info.txt",true);
+		xhttp.send();
+	}
+</script>
+</body>
+
+</html>

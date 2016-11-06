@@ -1,0 +1,29 @@
+{
+    "name": "october/Aaron-comment",
+    "type": "comment-plugin",
+    "description": "Demo OctoberCMS plugin",
+    "keywords": ["october", "cms", "comment", "plugin"],
+    "license": "MIT",
+
+    "authors": [
+        {
+            "name": "Aaron Zhou",
+            "email": "keren.zhou@foxmail.com",
+            "role": "developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "composer/installers": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "aaron\\webcomment\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}

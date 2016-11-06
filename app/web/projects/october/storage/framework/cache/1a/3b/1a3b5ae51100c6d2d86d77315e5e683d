@@ -1,0 +1,49 @@
+1473667205a:1:{s:8:"home.htm";a:9:{s:8:"fileName";s:8:"home.htm";s:7:"content";s:1140:"title = "Demonstration"
+url = "/"
+layout = "default"
+
+[session]
+security = "user"
+redirect = "login"
+==
+<div class="intro-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-message">
+                        <h1>Aaron Zhou</h1>
+                        <h3>A passionate Web developer</h3>
+                        <hr class="intro-divider">
+                        <ul class="list-inline intro-social-buttons">
+                            <li>
+                                <a href="https://github.com/aaronleslie" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                            </li>
+                            <li>
+                                <a href="https://nz.linkedin.com/in/aaron-zhou" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+ </div>";s:5:"mtime";i:1469009194;s:6:"markup";s:1036:"<div class="intro-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-message">
+                        <h1>Aaron Zhou</h1>
+                        <h3>A passionate Web developer</h3>
+                        <hr class="intro-divider">
+                        <ul class="list-inline intro-social-buttons">
+                            <li>
+                                <a href="https://github.com/aaronleslie" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                            </li>
+                            <li>
+                                <a href="https://nz.linkedin.com/in/aaron-zhou" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+ </div>";s:4:"code";N;s:5:"title";s:13:"Demonstration";s:3:"url";s:1:"/";s:6:"layout";s:7:"default";s:7:"session";a:2:{s:8:"security";s:4:"user";s:8:"redirect";s:5:"login";}}}

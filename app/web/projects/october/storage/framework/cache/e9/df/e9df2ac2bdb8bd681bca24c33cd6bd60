@@ -1,0 +1,21 @@
+1473667205a:1:{s:16:"updatestatus.htm";a:12:{s:8:"fileName";s:16:"updatestatus.htm";s:7:"content";s:272:"title = "updatestatus"
+url = "/updatestatus"
+layout = "default"
+description = "updatestatus"
+is_hidden = 0
+
+[account]
+paramCode = "code"
+
+[resetPassword]
+paramCode = "code"
+==
+<div class="container">
+    {% component 'account::default' %}
+</div>
+
+<!-- Page Explanation -->";s:5:"mtime";i:1468835206;s:6:"markup";s:96:"<div class="container">
+    {% component 'account::default' %}
+</div>
+
+<!-- Page Explanation -->";s:4:"code";N;s:5:"title";s:12:"updatestatus";s:3:"url";s:13:"/updatestatus";s:6:"layout";s:7:"default";s:11:"description";s:12:"updatestatus";s:9:"is_hidden";s:1:"0";s:7:"account";a:1:{s:9:"paramCode";s:4:"code";}s:13:"resetPassword";a:1:{s:9:"paramCode";s:4:"code";}}}

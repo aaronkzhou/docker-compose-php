@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding ="utf-8"?>
+<GameStore>
+    <Game type="adventure">
+        <TITLE>Assassin's Creed: Brotherhood</TITLE>
+        <PUBLISHER>Ubisoft</PUBLISHER>
+    </Game>
+
+    <Game type="adventure">
+        <TITLE>Batman: Arkham Asylum</TITLE>
+        <PUBLISHER>Eidos</PUBLISHER>
+    </Game>
+</GameStore>

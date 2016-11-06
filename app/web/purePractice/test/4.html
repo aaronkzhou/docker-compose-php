@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<style type="text/css">
+	.class1+.class2{font-family: arial;}
+	.class2{font-family: tahoma;}
+	.class3>.class2{font-family: georgia;}
+	.class4 .class2{font-family: helvetica;}
+	.class{color:red;}
+	p{color: blue;}
+</style>
+<span class="class1">
+<span class="class4">
+	<span class="class3">
+		<span class="class2">text</span>
+	</span>
+</span>
+</span>
+
+<div><p class="class">text</p></div>
+
+<style type="text/css">
+	.right{float:right;clear:right;}
+	.left{clear:left;}
+</style>
+<div class="wrapper">
+	<div class="right">text1</div>
+	<div class="left">text2</div>
+</div>
+
+<div style="width:50px "">Long Long Long Long Long Long Long Long</div>
+
+</body>
+</html>

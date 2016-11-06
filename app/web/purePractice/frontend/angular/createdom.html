@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta charset="UTF-8">
+	<script src="jlibrary/jquery-2.2.1.js" type="text/javascript"></script>
+	<title>createdom</title>
+	<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			var newElems=$('<div class="dcell"><img src="lily.png"/></div>');
+			newElems.each(function (index,elem){
+				console.log("newElems:"+elem.tagName+" "+elem.className);
+
+			});
+			newElems.children().each(function(index, elem) {
+				console.log("Child:"+elem.tagName+" "+elem.src);
+			});
+		});
+	</script>
+</head>
+<body>
+<h1>here is a test page</h1>
+<form method="post">
+	<div id='oblock'>
+		<div id="row1" class="drow">
+			<div class="dcell">
+				<img src="pic/1.png"><label for="aster">aster:</label>
+				<input name="aster" value="0" required></input>
+			</div>
+			<div class="dcell">
+				<img src="pic/2.png"><label for="daffodil">daffodil:</label>
+				<input name="daffodil" value="0" required></input>
+			</div>
+			<div class="dcell">
+				<img src="pic/3.png"><label for="rose">rose:</label>
+				<input name="rose" value="0" required></input>
+			</div>
+		</div>
+		<div id="row2" class="drow">
+			<div class="dcell">
+				<img src="pic/4.png"><label for="peony">peony:</label>
+				<input name="peony" value="0" required></input>
+			</div>
+			<div class="dcell">
+				<img src="pic/5.png"><label for="primula">primula:</label>
+				<input name="primula" value="0" required></input>
+			</div>
+			<div class="dcell">
+				<img src="pic/6.png"><label for="snowdrop">snowdrop:</label>
+				<input name="snowdrop" value="0" required></input>
+			</div>
+		</div>
+	</div>
+	<div id="buttondiv"><button type="submit">Place Order</button></div>
+</form>
+</body>
+</html>

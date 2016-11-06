@@ -1,0 +1,7 @@
+1473667205a:1:{s:10:"delete.htm";a:7:{s:8:"fileName";s:10:"delete.htm";s:7:"content";s:85:"title = "delete"
+url = "/comment/delete"
+==
+
+    {% component 'comments::delete' %}
+
+";s:5:"mtime";i:1469320594;s:6:"markup";s:34:"{% component 'comments::delete' %}";s:4:"code";N;s:5:"title";s:6:"delete";s:3:"url";s:15:"/comment/delete";}}
