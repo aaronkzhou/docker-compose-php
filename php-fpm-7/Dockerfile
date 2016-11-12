@@ -13,7 +13,7 @@ RUN apt-get update && apt-get install -y \
 	&& docker-php-ext-install mcrypt \
 	&& docker-php-ext-install intl \
 	&& docker-php-ext-install opcache \
-	&& docker-php-ext-install mbstring \
+	&& docker-php-ext-install mbstring
 
 # Get composer into /usr/local/bin/composer
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
