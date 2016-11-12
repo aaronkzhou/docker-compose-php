@@ -2,3 +2,5 @@ log/*/*
 mysql/databases/*
 .DS_Store
 !.gitkeep
+app/web/*
+!app/web/.gitkeep
