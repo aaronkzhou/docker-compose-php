@@ -23,4 +23,4 @@ By default the setup creates a php5.6 environment, see docker-compose-php-7.yml 
 
 # Test
 
-Open url http://localhost:8000 and you will see a phpinfo page
+Open url http://localhost and you will see a phpinfo page
