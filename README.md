@@ -19,7 +19,7 @@ Install docker and [docker-compose](https://docs.docker.com/compose/install/)
 
 # PHP
 
-By default the setup creates a php5.6 environment, see docker-compose-php-7.yml how to use php7 (pre-release)
+By default the setup creates a php7 environment
 
 # Test
 
