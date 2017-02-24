@@ -12,7 +12,7 @@ Install docker and [docker-compose](https://docs.docker.com/compose/install/)
 
 # Run
 
-		$ git clone https://github.com/devigner/docker-compose-php.git
+		$ git clone git@github.com:aaronleslie/docker.dev.git
 		$ cd docker-compose-php
 		$ docker-compose build
 		$ docker-compose up -d
