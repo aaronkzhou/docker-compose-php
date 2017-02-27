@@ -1,6 +1,6 @@
 FROM php:7-fpm
 
-# Install modules
+# Install modules,composer,phpunit
 RUN apt-get update && apt-get install -y \
 	libmcrypt-dev  \
 	libicu-dev \
@@ -14,13 +14,9 @@ RUN apt-get update && apt-get install -y \
 	&& docker-php-ext-install mcrypt \
 	&& docker-php-ext-install intl \
 	&& docker-php-ext-install opcache \
-	&& docker-php-ext-install mbstring
-
-# Get composer into /usr/local/bin/composer
-RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
-
-# install phpunit globally
-RUN wget https://phar.phpunit.de/phpunit-6.0.phar \
+	&& docker-php-ext-install mbstring \
+	&& curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer \
+	&& wget https://phar.phpunit.de/phpunit-6.0.phar \
 	&& chmod +x phpunit-6.0.phar \
 	&& mv phpunit-6.0.phar /usr/local/bin/phpunit
 
