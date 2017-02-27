@@ -1,4 +1,6 @@
-FROM php:7-fpm
+FROM php:7.1
+
+MAINTAINER Aaron Chou <aaaron.chou@gmail.com>
 
 # Install modules,composer,phpunit
 RUN apt-get update && apt-get install -y \
