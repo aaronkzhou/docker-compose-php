@@ -8,7 +8,12 @@ Create the ultimate development environment
 
 # Install
 
-Install docker and [docker-compose](https://docs.docker.com/compose/install/)
+1. Install docker and [docker-compose](https://docs.docker.com/compose/install/)
+rename the docker-compose file for your requirement
+
+# prerequisite
+
+rename the docker-compose file for your need
 
 # Run
 
