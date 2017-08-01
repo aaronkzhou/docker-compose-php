@@ -17,6 +17,7 @@ RUN apt-get update && apt-get install -y \
 	&& docker-php-ext-install intl \
 	&& docker-php-ext-install opcache \
 	&& docker-php-ext-install mbstring \
+	&& docker-php-ext-install mysqli \
 	&& curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer \
 	&& wget https://phar.phpunit.de/phpunit-6.0.phar \
 	&& chmod +x phpunit-6.0.phar \
