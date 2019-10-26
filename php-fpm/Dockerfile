@@ -1,4 +1,4 @@
-FROM php:7-fpm
+FROM php:7.3-fpm
 
 MAINTAINER Aaron Chou <aaaron.chou@gmail.com>
 
@@ -6,15 +6,16 @@ MAINTAINER Aaron Chou <aaaron.chou@gmail.com>
 RUN apt-get update && apt-get install -y \
 	libmcrypt-dev  \
 	libicu-dev \
-	mysql-client \
+	mariadb-client \
 	git \
 	zip \
 	unzip \
 	wget \
+	&& pecl install mcrypt-1.0.2 \
+	&& docker-php-ext-enable mcrypt \
 	&& docker-php-ext-install pdo_mysql \
 	&& docker-php-ext-install mysqli \
 	&& docker-php-ext-install iconv \
-	&& docker-php-ext-install mcrypt \
 	&& docker-php-ext-install intl \
 	&& docker-php-ext-install opcache \
 	&& docker-php-ext-install mbstring \

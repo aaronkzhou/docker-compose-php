@@ -4,12 +4,12 @@ docker-compose setup to run php5.6 or php7 with php-fpm via nginx and mysql. Con
 
 # Purpose
 
-Create the ultimate development environment 
+Create the ultimate development environment
 
 # Install
 
 1. Install docker and [docker-compose](https://docs.docker.com/compose/install/)
-rename the docker-compose file for your requirement
+   rename the docker-compose file for your requirement
 
 # prerequisite
 
@@ -17,10 +17,10 @@ rename the docker-compose file for your need
 
 # Run
 
-		$ git clone git@github.com:aaronleslie/docker.dev.git
-		$ cd docker-compose-php
-		$ docker-compose build
-		$ docker-compose up -d
+    	$ git clone git@github.com:aaronleslie/docker-compose-php.git
+    	$ cd docker-compose-php
+    	$ docker-compose build
+    	$ docker-compose up -d
 
 # PHP
 
